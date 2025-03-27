@@ -1,0 +1,43 @@
+body {
+    font-family: "Chewy", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .citycontainer {
+    max-width: 900px;
+    margin: 70px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  #cityphoto {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+  } 
+  
+  @media (max-width: 768px) {
+    .carousel-caption {
+      background-color: #0C6DFD;
+      color: whitesmoke;
+      border-radius: 20px;
+    }
+  }
+
+  h1{
+    text-align: center;
+  }
+
+  .logincontainer {
+    max-width: 600px;
+    height: 600px;
+    margin: 70px auto;
+    background: white;
+    padding: 90px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
